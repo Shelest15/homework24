@@ -13,6 +13,9 @@ public class MyCar extends Car {
 
             @Override
             public void Description() {
+                    model = "dodge";
+                    speed = 180;
+                    color = "blue";
                 System.out.println("model:" + model);
                 System.out.println("speed:" + speed);
                 System.out.println("color:" + color);
